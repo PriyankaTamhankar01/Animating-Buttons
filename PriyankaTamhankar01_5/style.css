@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #eee;
+    font-family: "Arial";
+  }
+  
+  .share {
+    width: 200px;
+    height: 200px;
+    margin: 5em auto;
+    background: #fff;
+    text-align: center;
+    border-radius: 100px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .share a {
+    display: inline-block;
+    width: 100px;
+    height: 200px;
+    position: relative;
+    text-indent: -9999px;
+    z-index: 9999;
+  }
+  
+  .share:after {
+    content: "Share";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40%;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: italic;
+    text-transform: uppercase;
+    color: #333;
+  }
+  
+
+  
